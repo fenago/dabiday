@@ -1,6 +1,7 @@
+[![logo](https://www.mrglasswindows.com/wp-content/uploads/2017/03/logo_miami_dade_college.png "logo")](https://www.mrglasswindows.com/wp-content/uploads/2017/03/logo_miami_dade_college.png "logo")
 # Miami Dade College
 ## Data Analytics and Business Intelligence Day
-We offer you a brighter future with in demand tech skills!
+Keeping up with Kendall!
 
 Let's jump to one of the most powerful tools for an Analyst, the Power BI Dashboard. A Power BI Dashboard is a fundamental element in Power BI Desktop. Every time you are working on Power BI Desktop, you are essentially working in the direction of creating a dashboard. So, having good knowledge of the Power BI dashboard is very important.
 
@@ -13,7 +14,7 @@ You can add important or main visualizations made on a Power BI development tool
 
 The designers create a dashboard and publish it on Power BI sharing platforms and consumers use the dashboards from there. A consumer cannot make changes in a dashboard. Rather, they use the dashboard for analytical purposes like getting a quick insight into their business, making an important decision based on the information given on a dashboard, etc.
 
-#### How to Create Dashboard in Power BI
+#### Downloading the Data (OPTIONAL - DO NOT DO THIS)
 Before proceeding ahead, please download Datasets:
 
 [Customer Dataset](https://github.com/fenago/dabiday/raw/main/data/Customer-details.xlsx "Customer Dataset")
@@ -35,7 +36,7 @@ On the top bar, you have tabs like Home, View, Modeling, and Help having a range
 
 On the left, there are three buttons for Report, Data, and Model. We will discuss them later.
 
-#### Step 1: Importing data
+#### Step 1: Importing data (OPTIONAL - DO NOT DO THIS)
 
 The first task you need to do when you start with creating a dashboard in Power BI is to import data from source files. Click on Get Data option to select a data source of your choice. Select a data source and click on Connect. You can prepare the data imported in the Power Query Editor.
 
@@ -68,6 +69,9 @@ The first task you need to do when you start with creating a dashboard in Power 
 
 ### Get Data Option in Power BI Dashboard
 
+### Getting Started - IMPORTANT:
+Download the getting started file [here](https://github.com/fenago/dabiday/raw/main/dabi_day_data.pbix "here").  Once the file is downloaded, double click it to launch Power BI.
+
 #### Step 2: Formatting
 
 From the Data tab, you can access all the imported tables and view them in tabular form. On the right, you’ll find a list of tables and fields within those tables. You can select a table or field to perform formatting actions on them. If you have fields such as date, time, city, state, percentage value, currency, etc. you can change the format or data type from the Modeling tab.
@@ -85,14 +89,8 @@ You want to make sure that all of your data is connected to the sales table.
 - Select the Model View of Power BI to see how your data is connected:
 [![Model View](https://github.com/fenago/dabiday/blob/main/images/pic11.png?raw=true "Model View")](https://github.com/fenago/dabiday/blob/main/images/pic11.png?raw=true "Model View")
 
-- If you notice that the Product Details is NOT connected to the Sales Details Table, drag the Product ID field from Product Details Table, into the Product ID field in the Sales Details Table:
-[![Product](https://github.com/fenago/dabiday/blob/main/images/pic12.png?raw=true "Product")](https://github.com/fenago/dabiday/blob/main/images/pic12.png?raw=true "Product")
 
-- You will notice that you have a star at both ends of your tables:
-[![many to many](https://github.com/fenago/dabiday/blob/main/images/pic13.png?raw=true "many to many")](https://github.com/fenago/dabiday/blob/main/images/pic13.png?raw=true "many to many")
-
-
-#### Step 4: Creating a KPI for Total Sales and Gross profit
+#### Step 4: Creating your first visual - a KPI for Total Sales and Gross profit
 
 So, for our dashboard, we imported five tables; customer details, order details, place details, product details, and sales details. The first visualization that we’ll make is a KPI. Select KPI from the visualizations section.
 [![kpi](https://github.com/fenago/dabiday/blob/main/images/pic15.png?raw=true "kpi")](https://github.com/fenago/dabiday/blob/main/images/pic15.png?raw=true "kpi")
