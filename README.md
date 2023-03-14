@@ -40,43 +40,43 @@ On the left, there are three buttons for Report, Data, and Model. We will discus
 
 The first task you need to do when you start with creating a dashboard in Power BI is to import data from source files. Click on Get Data option to select a data source of your choice. Select a data source and click on Connect. You can prepare the data imported in the Power Query Editor.
 
-- Download and import the customer dataset into Power BI:
+- Download and import the customer dataset into Power BI:</br></br>
 [![Download and Import](https://github.com/fenago/dabiday/blob/main/images/pic1.png?raw=true "Download and Import")](https://github.com/fenago/dabiday/blob/main/images/pic1.png?raw=true "Download and Import")
 
-- Select Customer Details XLSX:
+- Select Customer Details XLSX:</br></br>
 [![customer details](https://github.com/fenago/dabiday/blob/main/images/pic2.png?raw=true "customer details")](https://github.com/fenago/dabiday/blob/main/images/pic2.png?raw=true "customer details")
 
-- Choose customer details and Transform Data
+- Choose customer details and Transform Data</br></br>
 [![transform data](https://github.com/fenago/dabiday/blob/main/images/pic3.png?raw=true "transform data")](https://github.com/fenago/dabiday/blob/main/images/pic3.png?raw=true "transform data")
 
-- This will open the Power Query Editor.  Please select use first row as header from the Home tab:
+- This will open the Power Query Editor.  Please select use first row as header from the Home tab:</br></br>
 [![first row as header](https://github.com/fenago/dabiday/blob/main/images/pic4.png?raw=true "first row as header")](https://github.com/fenago/dabiday/blob/main/images/pic4.png?raw=true "first row as header")
 
-- Validate that the first row is the header and then close and apply:
+- Validate that the first row is the header and then close and apply:</br></br>
 [![validate](https://github.com/fenago/dabiday/blob/main/images/pic5.png?raw=true "validate")](https://github.com/fenago/dabiday/blob/main/images/pic5.png?raw=true "validate")
 
-- Confirm that your Power BI Desktop shows the correct customer details:
+- Confirm that your Power BI Desktop shows the correct customer details:</br></br>
 [![confirm](https://github.com/fenago/dabiday/blob/main/images/pic6.png?raw=true "confirm")](https://github.com/fenago/dabiday/blob/main/images/pic6.png?raw=true "confirm")
 
-- Follow the same steps and also load the Order Details and Product Details so that your final result after all of the imports look like this:
+- Follow the same steps and also load the Order Details and Product Details so that your final result after all of the imports look like this:</br></br>
 [![more imports](https://github.com/fenago/dabiday/blob/main/images/pic7.png?raw=true "more imports")](https://github.com/fenago/dabiday/blob/main/images/pic7.png?raw=true "more imports")
 
-- Finally, just LOAD (not transform) the Sales and Regions data:
+- Finally, just LOAD (not transform) the Sales and Regions data:</br></br>
 [![sales and regions](https://github.com/fenago/dabiday/blob/main/images/pic8.png?raw=true "sales and regions")](https://github.com/fenago/dabiday/blob/main/images/pic8.png?raw=true "sales and regions")
 
-- Once you have successfully loaded all of your data, your final screen will look like this:
+- Once you have successfully loaded all of your data, your final screen will look like this:</br></br>
 [![final imports](https://github.com/fenago/dabiday/blob/main/images/pic9.png?raw=true "final imports")](https://github.com/fenago/dabiday/blob/main/images/pic9.png?raw=true "final imports")
-
+</br></br>
 ### Get Data Option in Power BI Dashboard
 
-### Getting Started - IMPORTANT:
+### Getting Started - IMPORTANT:</br></br>
 Download the getting started file [here](https://github.com/fenago/dabiday/raw/main/dabi_day_data.pbix "here").  Once the file is downloaded, double click it to launch Power BI.
 
 #### Step 2: Formatting
 
 From the Data tab, you can access all the imported tables and view them in tabular form. On the right, you’ll find a list of tables and fields within those tables. You can select a table or field to perform formatting actions on them. If you have fields such as date, time, city, state, percentage value, currency, etc. you can change the format or data type from the Modeling tab.
 
-- Click on the Data Tab to explore that data that you imported from Step 1:
+- Click on the Data Tab to explore that data that you imported from Step 1:</br></br>
 [![data](https://github.com/fenago/dabiday/blob/main/images/pic10.png?raw=true "data")](https://github.com/fenago/dabiday/blob/main/images/pic10.png?raw=true "data")
 
 
@@ -86,32 +86,32 @@ Although the relationships and associations between the tables that you load are
 
 You want to make sure that all of your data is connected to the sales table.  
 
-- Select the Model View of Power BI to see how your data is connected:
+- Select the Model View of Power BI to see how your data is connected:</br></br>
 [![Model View](https://github.com/fenago/dabiday/blob/main/images/pic11.png?raw=true "Model View")](https://github.com/fenago/dabiday/blob/main/images/pic11.png?raw=true "Model View")
 
 
 #### Step 4: Creating your first visual - a KPI for Total Sales and Gross profit
 
-So, for our dashboard, we imported five tables; customer details, order details, place details, product details, and sales details. The first visualization that we’ll make is a KPI. Select KPI from the visualizations section.
+So, for our dashboard, we imported five tables; customer details, order details, place details, product details, and sales details. The first visualization that we’ll make is a KPI. Select KPI from the visualizations section.</br></br>
 [![kpi](https://github.com/fenago/dabiday/blob/main/images/pic15.png?raw=true "kpi")](https://github.com/fenago/dabiday/blob/main/images/pic15.png?raw=true "kpi")
 
 KPI in visualizations in Power BI Dashboard
 
-With the KPI visualization selected, choose Category from the Product Details and Sum of Sales from the Sales Table as shown in the screenshot below  (You can also drag and drop the fields into respective columns indicated by the image below.):
+With the KPI visualization selected, choose Category from the Product Details and Sum of Sales from the Sales Table as shown in the screenshot below  (You can also drag and drop the fields into respective columns indicated by the image below.):</br></br>
 [![kpi](https://github.com/fenago/dabiday/blob/main/images/pic16.png?raw=true "kpi")](https://github.com/fenago/dabiday/blob/main/images/pic16.png?raw=true "kpi")
 
 You have created your first Visualization and uncovered your first Insight.  Total Sales!
 
 You can select fields, apply filters and format the visual from the Format icon. The first KPI we prepared shows Total sales.
-
+</br></br>
 [![kpi](https://github.com/fenago/dabiday/blob/main/images/pic17.png?raw=true "kpi")](https://github.com/fenago/dabiday/blob/main/images/pic17.png?raw=true "kpi")
 
 
-Now it is your turn!  Create another KPI that shows the Total (Gross) Cost.  Use the steps above as a guide.  Your final output should be similar to this:
+Now it is your turn!  Create another KPI that shows the Total (Gross) Cost.  Use the steps above as a guide.  Your final output should be similar to this:</br></br>
 [![costs](https://github.com/fenago/dabiday/blob/main/images/pic18.png?raw=true "costs")](https://github.com/fenago/dabiday/blob/main/images/pic18.png?raw=true "costs")
 
 If you click on the formatting tab, you can change the color and title and many other attributes!
-- Explore the attributes and change things in your visuals like the background colors and titles:
+- Explore the attributes and change things in your visuals like the background colors and titles:</br></br>
 [![colors](https://github.com/fenago/dabiday/blob/main/images/pic20.png?raw=true "colors")](https://github.com/fenago/dabiday/blob/main/images/pic20.png?raw=true "colors")
 
  
@@ -120,14 +120,14 @@ If you click on the formatting tab, you can change the color and title and many 
 
 Next, we’ll create a Stacked bar chart which is going to show sales value by state and category of product. Add this chart from the Visualizations.
 
-- Select Stacked Bar Chart
+- Select Stacked Bar Chart</br></br>
 
 [![](https://github.com/fenago/dabiday/blob/main/images/pic21.png?raw=true)](https://github.com/fenago/dabiday/blob/main/images/pic21.png?raw=true)
 
 
 Add fields in the chart and format the title, data labels, legend, axes, plot area, data colors, etc. As you can see in the image below, the stacked bar chart shows total sales in each state for the three main categories (Furniture, Office supplies, and Technology).
 
-- With the stacked bar chart selected, choose State, Category, and Sum of Sales as shown:
+- With the stacked bar chart selected, choose State, Category, and Sum of Sales as shown:</br></br>
 [![bar](https://github.com/fenago/dabiday/blob/main/images/pic22.png?raw=true "bar")](https://github.com/fenago/dabiday/blob/main/images/pic22.png?raw=true "bar")
 
 Study that Visual and determine what insights you can uncover.  For instance, what is the best selling category in each state?
@@ -137,10 +137,10 @@ Study that Visual and determine what insights you can uncover.  For instance, wh
 Moving on, the next visualization we need to create is a column chart (Line and clustered column chart). We will create this visual to show the total sales and gross profit by year.
 
 - Select a Line and Clustered Column Chart from the Visualizations section.
-
+</br></br>
 [![bar2](https://github.com/fenago/dabiday/blob/main/images/Pic23.png?raw=true "bar2")](https://github.com/fenago/dabiday/blob/main/images/Pic23.png?raw=true "bar2")
 
-- Then add these fields to add into the visual. You can see the selected fields in the Fields tab as shown:
+- Then add these fields to add into the visual. You can see the selected fields in the Fields tab as shown:</br></br>
 [![g](https://github.com/fenago/dabiday/blob/main/images/pic24.png?raw=true "g")](https://github.com/fenago/dabiday/blob/main/images/pic24.png?raw=true "g")
 
 
@@ -150,23 +150,23 @@ Our final visual looks as shown in the picture below. The  bars shows the total 
 
 In addition to visually representing data via graphs and charts, you can display data as textual information using cards or multi-row cards. So, we’ll add a Multi-row card from the Visualizations section.
 
-- Choose the Multi-row card option
+- Choose the Multi-row card option</br></br>
 [![fad](https://github.com/fenago/dabiday/blob/main/images/pic25.png?raw=true "fad")](https://github.com/fenago/dabiday/blob/main/images/pic25.png?raw=true "fad")
 
-- Select the options shown below and analyze the results.  What insights can you infer? We have a multi-row card which shows the information related to product categories, total sales per category, total units sold and gross costs.
+- Select the options shown below and analyze the results.  What insights can you infer? We have a multi-row card which shows the information related to product categories, total sales per category, total units sold and gross costs.</br></br>
 [![re](https://github.com/fenago/dabiday/blob/main/images/pic26.png?raw=true "re")](https://github.com/fenago/dabiday/blob/main/images/pic26.png?raw=true "re")
 
 Step 8: Creating a map showing total units sold by state
 
 From the wide range of visualizations available, we can also represent information on the map. In our dashboard, we will add a map showing total units sold per state in the USA. We selected a Filled map from the Visualizations section.
 
-To do this, we must enable maps.  Go to File --> Options and Settings --> Options --> Security --> Enable Map and Filled Map Visuals:
+To do this, we must enable maps.  Go to File --> Options and Settings --> Options --> Security --> Enable Map and Filled Map Visuals:</br></br>
 [![gdgf](https://github.com/fenago/dabiday/blob/main/images/pic28.png?raw=true "gdgf")](https://github.com/fenago/dabiday/blob/main/images/pic28.png?raw=true "gdgf")
 
-- Select the Filled Map in visualizations in Power BI Dashboard
+- Select the Filled Map in visualizations in Power BI Dashboard</br></br>
 [![erer](https://github.com/fenago/dabiday/blob/main/images/pic27.png?raw=true "erer")](https://github.com/fenago/dabiday/blob/main/images/pic27.png?raw=true "erer")
 
-- Next, we will add fields into the map.
+- Next, we will add fields into the map.</br></br>
 [![pioip](https://github.com/fenago/dabiday/blob/main/images/pic29.png?raw=true "pioip")](https://github.com/fenago/dabiday/blob/main/images/pic29.png?raw=true "pioip")
 
 
@@ -174,7 +174,7 @@ Step 10: Adding a Slicer for Sub-categories of products
 
 Lastly, we’ll add a Slicer for Sub-categories of products in the record. Using this slicer, users can select specific categories and filter through data. Upon making a selection in the slicer, all the other visuals will undergo changes and show only the visuals related to the selected field or value.
 
-- Add a Slicer and Explore the Filters:
+- Add a Slicer and Explore the Filters:</br></br>
 [![slicer](https://github.com/fenago/dabiday/blob/main/images/pic30.png?raw=true "slicer")](https://github.com/fenago/dabiday/blob/main/images/pic30.png?raw=true "slicer")
 
 Step 11: Finish the final dashboard
