@@ -27,7 +27,7 @@ In this section, we’ll learn how to create a Power BI dashboard from scratch. 
 
 So, let’s get started with dashboard creation.
 
-As soon as you open Power BI Desktop, a workspace will appear. Notice the sections indicated by red arrows in the image below.
+As soon as you open Power BI Desktop, a workspace will appear. Notice the sections indicated by red arrows in the image below. </br></br>
 [![Picture 1](https://github.com/fenago/dabiday/blob/main/images/Picture1.png?raw=true "Picture 1")](https://github.com/fenago/dabiday/blob/main/images/Picture1.png?raw=true "Picture 1")
 
 Red arrows indicating different option in Power BI Dashboard
